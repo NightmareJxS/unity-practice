@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 222185198}
   - component: {fileID: 222185200}
   - component: {fileID: 222185199}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -2827,7 +2827,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 2.535967e-25, y: 1.5849793e-26, z: 0, w: 1}
+  m_LocalRotation: {x: 3.6401198e-25, y: 2.2750749e-26, z: 0, w: 1}
   m_LocalPosition: {x: -6.3183618, y: 2.43999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2896,7 +2896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599149057}
   m_LocalRotation: {x: 5.04871e-29, y: 3.1554436e-30, z: -0, w: 1}
-  m_LocalPosition: {x: -4.6416383, y: 0.00001001358, z: -1.471138e-25}
+  m_LocalPosition: {x: -4.6416383, y: 0.00001001358, z: -2.111795e-25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3083,7 +3083,7 @@ GameObject:
   - component: {fileID: 867004670}
   - component: {fileID: 867004671}
   - component: {fileID: 867004672}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3118,7 +3118,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0013695434, y: 0.036439657}
+  m_Offset: {x: 0.002061069, y: 0.036439657}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3129,7 +3129,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18392067, y: 0.0040711462}
+  m_Size: {x: 0.17977065, y: 0.0040711462}
   m_EdgeRadius: 0
 --- !u!114 &867004672
 MonoBehaviour:
@@ -3660,7 +3660,7 @@ GameObject:
   - component: {fileID: 1211740326}
   - component: {fileID: 1211740325}
   - component: {fileID: 1211740324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TowersPlatforms
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -4189,7 +4189,7 @@ GameObject:
   - component: {fileID: 1569543122}
   - component: {fileID: 1569543121}
   - component: {fileID: 1569543123}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4277,7 +4277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 1
-  jumpForce: 27
+  jumpForce: 30
   isGrounded: 0
 --- !u!50 &1569543122
 Rigidbody2D:
@@ -4292,7 +4292,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1.5
-  m_LinearDrag: 1
+  m_LinearDrag: 2
   m_AngularDrag: 1
   m_GravityScale: 3
   m_Material: {fileID: 6200000, guid: 3e3949be60e76de4398f85b9d37f049e, type: 2}
