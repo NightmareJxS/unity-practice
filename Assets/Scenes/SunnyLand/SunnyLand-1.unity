@@ -2827,7 +2827,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 3.6401198e-25, y: 2.2750749e-26, z: 0, w: 1}
+  m_LocalRotation: {x: 5.9610117e-25, y: 3.7256323e-26, z: 0, w: 1}
   m_LocalPosition: {x: -6.3183618, y: 2.43999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2896,7 +2896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599149057}
   m_LocalRotation: {x: 5.04871e-29, y: 3.1554436e-30, z: -0, w: 1}
-  m_LocalPosition: {x: -4.6416383, y: 0.00001001358, z: -2.111795e-25}
+  m_LocalPosition: {x: -4.6416383, y: 0.00001001358, z: -3.4584338e-25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2967,7 +2967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 667676647}
   - component: {fileID: 667676646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftBorder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4189,6 +4189,7 @@ GameObject:
   - component: {fileID: 1569543122}
   - component: {fileID: 1569543121}
   - component: {fileID: 1569543123}
+  - component: {fileID: 1569543124}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -4326,6 +4327,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17946872, y: 0.2206929}
   m_EdgeRadius: 0
+--- !u!95 &1569543124
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569543118}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cac1ec49848814419f1ea662e1fe6d0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1619744853
 GameObject:
   m_ObjectHideFlags: 3
@@ -4777,8 +4798,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2058653004}
   - component: {fileID: 2058653003}
-  m_Layer: 0
-  m_Name: RightBoarder
+  m_Layer: 10
+  m_Name: RightBorder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
